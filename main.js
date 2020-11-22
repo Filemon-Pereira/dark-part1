@@ -21,3 +21,8 @@ function star(){
     }
 }
 star()
+
+function toggleScene() {
+    let change = document.querySelector('.scene')
+    change.classList.toggle('active')
+}
